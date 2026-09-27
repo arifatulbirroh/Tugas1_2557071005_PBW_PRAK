@@ -1,0 +1,124 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #9a3335, #e69a9a);
+  color: #0e0b43;
+  min-height: 150vh;
+  padding: 40px 30px;
+}
+
+.container {
+  width: 100%;
+  max-width: 450px;
+  margin: auto;
+}
+
+.profile {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-img {
+  width: 150px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 7px solid #b79191;
+  box-shadow: 0 5px 20px rgba(218, 122, 122, 0.781);
+  margin-bottom: 15px;
+}
+
+.profile h1 {
+  font-size: 30px;
+  margin-bottom: 8px;
+  color: rgb(254, 253, 254);
+}
+
+.bio {
+  max-width: 500px;
+  margin: auto;
+  line-height: 1.6;
+  color: #f9f3f3;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.link-button {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(92, 27, 27);
+  background-color: rgb(225, 153, 153);
+  padding: 15px;
+  border-radius: 12px;
+  font-weight: bold;
+  box-shadow: 0 4px 12px rgba(178, 168, 168, 0.08);
+  transition: 0.3s;
+}
+
+.link-button:hover {
+  background-color: #e77676c7;
+  color: white;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 18px rgba(95, 26, 26, 0.603);
+}
+
+.card {
+  background-color: rgb(213, 146, 146);
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(91, 19, 19, 0.756);
+}
+
+.card h2 {
+  color: #3f0f0fcf;
+  margin-bottom: 12px;
+}
+
+.card p {
+  line-height: 1.7;
+  color: #f5f1f1;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills span {
+  background-color: #ad5255;
+  color: #fcfcfc;
+  padding: 15px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.contact-button {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 12px;
+  background-color: #ad5255;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.contact-button:hover {
+  background-color: #bb7c7e;
+  transform: translateY(-2px);
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  color: #fdf1f1;
+  font-size: 14px;
+}
